@@ -1,3 +1,5 @@
+# fishstick
+
 fuse\_gdrive
 ==============
 
@@ -16,7 +18,7 @@ For the impatient
      environment variable.
   4. use go to fetch and install this code and its dependencies:
 
-    `$ go install github.com/asjoyner/fuse_gdrive`
+    `$ go install github.com/asjoyner/fishstick`
 
   5. make a mount point on your system
 
@@ -24,7 +26,7 @@ For the impatient
 
   6. request to mount the filesystem
 
-    `$ fuse_gdrive /mnt/gdrive`
+    `$ fishstick /mnt/gdrive`
 
   7. A browser window will open for you to grant permission to your files in
      Drive.
